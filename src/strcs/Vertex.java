@@ -1,3 +1,4 @@
+package strcs;
 import java.util.ArrayList;
 
 public class Vertex<E> {
@@ -9,7 +10,8 @@ public class Vertex<E> {
 	public Vertex(E element) {
 		
 		this.element = element;
-		this.adjacency = new ArrayList<E>();
+		num = -1;
+		adjacency = new ArrayList<E>();
 
 	}
 
